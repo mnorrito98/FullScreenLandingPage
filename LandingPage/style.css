@@ -96,10 +96,11 @@ p
 .par1
 {
 	border: solid;
-	border-color: brown;
+	border-color: #3a1111;
 	margin: 50px;
 	border-bottom-left-radius: 34px;
 	border-top-right-radius: 34px;
+	background-color: #e0da64;
 
 }
 
@@ -138,5 +139,7 @@ footer
 	{
 		border: none;
 		margin: auto;
+		background-color: none;
 	}
+
 }
