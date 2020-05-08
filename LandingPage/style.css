@@ -1,0 +1,142 @@
+/* _____ css for the landing page were making in class 
+
+FONTS
+------------
+TXT on BTN: font-family: 'Righteous', cursive;
+TXT on PG: font-family: 'Oswald', sans-serif;
+TITLE for the pg: font-family: 'Fjalla One', sans-serif;
+------------
+
+
+*/
+html, body
+{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	background-color: lightyellow;
+
+}
+
+body
+{
+	font-family: 'Oswald', sans-serif;
+}
+
+.intro
+{
+	width: 100%;
+	height: 100%;
+	margin-top: 0px;
+	background: url(background.jpg);
+	display: table;
+	background-size: cover;
+	
+}
+.inner
+{
+	display: table-cell;
+	vertical-align: middle;
+	width: 100%;
+	text-align: center;
+}
+.content
+{
+	margin: 0 auto;
+	text-align: center;
+
+}
+h1
+{
+	font-family: 'Righteous', cursive;
+	font-size: 450%;
+	color: white;
+	text-shadow: 1px 0px 4px black;
+
+}
+
+
+a.btn
+{
+	font-family: 'Fjalla One', sans-serif;
+	border: solid;
+	background:  #ead533;
+	font-size: 200%;
+	text-decoration: none;
+	border-color: black;
+	color: black;
+	border-radius: 123px ;
+	padding: 10px 25px;
+	transition: border-color , color 0.7s;
+
+
+}
+
+a.btn:hover
+{
+	color: white;
+	border-color: black;
+
+
+}
+
+
+
+p
+{
+	font-size: 160%;
+	line-height: 180%;
+	text-align: justify;
+	padding: 10px 50px 10px 50px;
+	
+
+}
+
+.par1
+{
+	border: solid;
+	border-color: brown;
+	margin: 50px;
+	border-bottom-left-radius: 34px;
+	border-top-right-radius: 34px;
+
+}
+
+footer
+{
+	text-align: center;
+	font-size: 87%;
+	padding-bottom: 29px;
+	padding-top: 0px;
+}
+
+
+/* Media QUerie for tablet sized screens and smaller*/
+@media screen and (max-width: 786px)
+{
+	h1
+	{
+		font-size: 250%;
+
+	}
+	p
+	{
+		font-size: 100%;
+		line-height: 105%;
+
+	}
+	a.btn
+	{
+		font-size: 130%;
+	}
+	footer
+	{
+		display: none;
+	}
+	.par1
+	{
+		border: none;
+		margin: auto;
+	}
+}

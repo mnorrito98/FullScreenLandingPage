@@ -1,0 +1,1 @@
+/*Fake Javascript file in order for certain properties to run smoother in the CSS*/
